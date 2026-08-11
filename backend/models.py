@@ -7,3 +7,4 @@ class Job:
     location: str
     description: str
     url: str
+    platform: str

@@ -76,5 +76,6 @@ class GreenhouseAdapter(BaseAdapter):
             company=company,
             location=location,
             description=description,
-            url=url
+            url=url,
+            platform="greenhouse"
         )
