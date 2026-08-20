@@ -1,0 +1,10 @@
+{
+    "traveler": "John",
+    "company": "Microsoft",
+    "cost_center": "Engineering",
+    "billing_entity": "US",
+    "travel_category": "Hotel",
+    "payment_method": "Individual Card",
+    "city": "London",
+    "cost": 2500
+}

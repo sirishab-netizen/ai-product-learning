@@ -1,3 +1,31 @@
+Project: AI product learning
+
+Run instructions for the `learning` examples:
+
+- From the workspace root, run the `main` module as a package (recommended):
+
+```powershell
+C:/Users/siris/AppData/Local/Python/pythoncore-3.14-64/python.exe -m learning.week1.day2.main
+```
+
+- Or set `PYTHONPATH` to the workspace root and run the script directly:
+
+```powershell
+$env:PYTHONPATH = "C:\\Users\\siris\\Documents\\ai-product-learning"
+C:/Users/siris/AppData/Local/Python/pythoncore-3.14-64/python.exe learning/week1/day2/main.py
+```
+
+Notes:
+- Using `python -m` ensures package imports (absolute or relative) work consistently.
+- The repository now contains `__init__.py` files under `learning/`, `learning/week1/`, and `learning/week1/day2/`.
+
+Direct script support:
+
+- `main.py` now supports being run directly as a script without setting `PYTHONPATH` by falling back to adding the workspace root to `sys.path` when necessary. From the workspace root you can run:
+
+```powershell
+C:/Users/siris/AppData/Local/Python/pythoncore-3.14-64/python.exe learning/week1/day2/main.py
+```
 # AI Product Learning
 
 This repository documents my 90-day journey to become an AI Product Leader.
